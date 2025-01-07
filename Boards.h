@@ -741,7 +741,10 @@
     #elif BOARD_MODEL == BOARD_RAK4631 || BOARD_MODEL == BOARD_FREENODE
       #define HAS_EEPROM false
       #define HAS_DISPLAY true
-      #define DISPLAY EINK_BW
+      #define DISPLAY OLED
+      #define INTERFACE_COUNT 1
+      #define I2C_SDA 5
+      #define I2C_SCL 6
       #define HAS_BLUETOOTH false
       #define HAS_BLE true
       #define HAS_CONSOLE false
@@ -795,7 +798,7 @@
                     // SX1262
           {
               false, // DEFAULT_SPI
-              true, // HAS_TCXO
+              false, // HAS_TCXO
               true  // DIO2_AS_RF_SWITCH
           }, 
                     // SX1280
