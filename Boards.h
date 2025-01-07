@@ -808,28 +808,28 @@
       const int8_t interface_pins[INTERFACE_COUNT][10] = { 
                   // SX1262
           {
-              42, // pin_ss
-              43, // pin_sclk
-              44, // pin_mosi
-              45, // pin_miso
-              46, // pin_busy
-              47, // pin_dio
-              38, // pin_reset
-              -1, // pin_txen
-              37, // pin_rxen
+              22, // pin_ss
+              21, // pin_sclk
+              20, // pin_mosi
+              17, // pin_miso
+              19, // pin_busy
+              16, // pin_dio
+              12, // pin_reset
+              36, // pin_txen
+              34, // pin_rxen
               -1  // pin_tcxo_enable
           },
                   // SX1280
           {
-              24, // pin_ss
-               3, // pin_sclk
-              30, // pin_mosi
-              29, // pin_miso
-              25, // pin_busy
-              15, // pin_dio
-              16, // pin_reset
-              20, // pin_txen
-              19, // pin_rxen
+              26, // pin_ss
+              43, // pin_sclk
+              44, // pin_mosi
+              45, // pin_miso
+               4, // pin_busy
+              25, // pin_dio
+              27, // pin_reset
+              23, // pin_txen
+              24, // pin_rxen
               -1  // pin_tcxo_enable
           } 
       };
