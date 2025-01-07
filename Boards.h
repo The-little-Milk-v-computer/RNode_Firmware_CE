@@ -741,7 +741,7 @@
     #elif BOARD_MODEL == BOARD_RAK4631 || BOARD_MODEL == BOARD_FREENODE
       #define HAS_EEPROM false
       #define HAS_DISPLAY false
-      #define DISPLAY EINK_BW
+      //#define DISPLAY EINK_BW
       #define INTERFACE_COUNT 1
       #define I2C_SDA 5
       #define I2C_SCL 6
